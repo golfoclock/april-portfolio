@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i|Old+Standard+TT:400i');
 @import url("font-awesome.min.css");
 
 /*
@@ -751,7 +751,9 @@
 		background-repeat: repeat, no-repeat;*/
 		background-color: #ECE2E1;
 		background-size: auto, 100% 100%;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		letter-spacing: 2px;
 		font-weight: 300;
 		color: #777777;
 	}
@@ -814,6 +816,8 @@
 
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
+		font-family: 'Old Standard TT', serif;
+
 	}
 
 /* Table */
@@ -1162,8 +1166,8 @@
 			}
 
 			h1 {
-				font-size: 2.4em;
-				letter-spacing: -0.015em;
+				font-size: 1.5em;
+				letter-spacing: .5em;
 			}
 
 			h2 {
