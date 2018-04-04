@@ -747,8 +747,9 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
+		/*background-image: url("images/overlay.png"), url("images/pink_computer.jpg");
+		background-repeat: repeat, no-repeat;*/
+		background-color: #ECE2E1;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -775,6 +776,7 @@
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #363636;
+		text-transform: uppercase;
 	}
 
 	blockquote {
