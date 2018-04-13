@@ -747,9 +747,8 @@
 /* Basic */
 
 	body {
-		/*background-image: url("images/overlay.png"), url("images/pink_computer.jpg");
-		background-repeat: repeat, no-repeat;*/
-		background-color: #F0DFD8;
+		background-repeat: repeat, no-repeat;
+		background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
 		background-size: auto, 100% 100%;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 14px;
@@ -1397,6 +1396,7 @@
 					#me .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
+						background-color: #F0DFD8;
 					}
 
 				#me header {
